@@ -1,0 +1,40 @@
+<img src="http://themehybrid.com/blog/wp-content/uploads/2013/09/socially-awkward-home.jpg" alt="socially-awkward-home" width="600" height="424" class="aligncenter size-full wp-image-2171" />
+
+One type of theme I've always wanted to build is a video theme.  It's also been requested on many occasions in the past.  I'm here today to tell you that I have not built a video theme.
+
+Honestly, when I first started working on the Socially Awkward theme, I had planned to create a video theme because WordPress 3.6 just dropped some awesomeness on us with video support.  However, I decided to truly do a video theme justice (like YouTube, Vimeo, etc.), it would need an accompanying plugin to handle a lot of extra non-theme features.  That's just not what I wanted to do.  I wanted to focus on designing a theme rather than developing features.
+
+So, instead, I built a theme that highlights all sorts of media, not just videos.
+
+<h2>About the theme</h2>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2013/09/socially-awkward-video.jpg" alt="socially-awkward-video" width="300" height="463" class="alignright size-full wp-image-2172" />
+
+Socially Awkward is a theme that I believe the average WordPress user needs.  It's about getting back to the roots of <em>web</em>logging and sharing content.
+
+I don't want to sound like I'm over-hyping it too much, but this is a project I've fallen in love with.  It's the first time in a while I've pushed through 16-hour days just so I could play around with a new idea.  It's been invigorating and has rejuvenated my love for simply designing WordPress themes.
+
+The plan for this theme was simple:  use WordPress' post formats, Hybrid Core's new media grabber, and media from around the Web.  Then, mix them all together and see what happens.
+
+I believe I've created a theme that performs its job well.
+
+<h2>What's different about this theme?</h2>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2013/09/socially-awkward-audio.jpg" alt="socially-awkward-audio" width="600" height="137" class="aligncenter size-full wp-image-2173" />
+
+Socially Awkward has some new features that I've been experimenting with lately but have finally gotten a chance to fully put to use.  Here's a list of a few things that's different about this theme.
+
+<ul>
+	<li>It's one of the few themes in existence that takes advantage of WordPress' new features for self-hosted audio and video like a custom-skinned media player and the display of ID3 tags (i.e., audio/video metadata).</li>
+	<li>Takes advantage of the Hybrid Core framework's new media grabber (added in 1.6) to pull media from a post, which is something you'll probably see from more Hybrid-built themes in the future.</li>
+	<li>Uses WordPress' nav menu system to handle the display of your social networking profiles.</li>
+	<li>No theme options.  Yes, that's a feature.  Themes should just work, and I've done my best to make theme setup as worry-free as possible.</li>
+	<li>Post formats navigation.  There's an included "formats" menu.  But, the cool feature is that navigation between single posts is to the next/previous post by format (e.g., the next video, previous quote, etc.).</li>
+	<li>We've got Bon Iver in <a href="http://locallylost.com/socially-awkward/2013/08/02/skinny-love/">the demo</a>.  What other themes can claim that?</li>
+</ul>
+
+<h2>Download the theme</h2>
+
+You can find all the relevant theme information like the download and demo links on the <a href="http://themehybrid.com/themes/socially-awkward" title="Socially Awkward WordPress theme">Socially Awkward</a> theme page.  It will also soon be on the WordPress.org theme repository (assuming it makes it through the review process).
+
+Please enjoy this theme.  All feedback is welcome.  As always, please post any support questions in the <a href="http://themehybrid.com/support" title="Theme Hybrid support forums">support forums</a>.

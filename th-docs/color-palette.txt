@@ -1,0 +1,168 @@
+The Color Palette extension was created so that theme developers could easily add color options to the built-in WordPress theme customizer.  This makes theme developers' jobs easier by allowing them to simply plug in the values rather having to code the entire thing themselves.
+
+This gives users something fun to play with if they like messing around with a theme's colors without having to know code.
+
+<p class="alert">A word of warning:  Please don't overdo this feature in every theme you create.  While it is fun to use, remember that you are technically a theme <strong>designer</strong>.  This script can be very powerful and useful, but it can also be detrimental to your skills as a designer.  So, use wisely.</p>
+
+<h2 id="feature-enable">Activating Color Palette</h2>
+
+To enable the Color Palette extension in your theme, add the following line of code in your theme setup function:
+
+<pre><code>add_theme_support( 'color-palette' );</code></pre>
+
+That's how you enable this feature, but you'll also want to add a callback function for registering your colors.  We'll assume that this function name is <code>my_register_colors()</code>.  So, you would need to use the following code to accomplish this.
+
+<pre><code>add_theme_support( 'color-palette', array( 'callback' => 'my_register_colors' ) );</code></pre>
+
+This basically tells the script to execute your callback function when it's time to get the colors and color options.
+
+<h2 id="feature-usage">Registering custom colors</h2>
+
+Now that you've set up the Color Palette extension, you need to create your <code>my_register_colors()</code> function to register your colors.  The basic function will look like the following.
+
+<pre><code>function my_custom_colors( $color_palette ) {
+
+	/* Code will go here. */
+}</code></pre>
+
+You'll notice the parameter of <code>$color_palette</code>.  This is the Color Palette object that's being passed to your callback function, which will allow you to interact with the <code>Color_Palette</code> class's properties and methods.  In particular, you'll be using the following methods.
+
+<dl class="parameter-list">
+<dt><code>add_color()</code></dt>
+<dd>Allows you to add a color option to the theme customizer.</dd>
+<dt><code>add_rule_set()</code></dt>
+<dd>Allows you to add a <abbr title="Cascading Style Sheets">CSS</abbr> rule set for a particular color option.</dd>
+</dl>
+
+<h3 id="class-method-add_color">$color_palette->add_color</h3>
+
+<pre><code>$color_palette->add_color( $args );</code></pre>
+
+This method allows you to add a custom color option.  It accepts a single parameter of <code>$args</code>, which is an array of arguments for adding a color option.
+
+<dl class="parameter-list">
+<dt><code>id</code></dt>
+<dd>A unique ID/key for this color option.</dd>
+<dt><code>label</code></dt>
+<dd>An internationalized text string used as a label in the theme customizer.</dd>
+<dt><code>default</code></dt>
+<dd>The hex code for the default color to use for this color option (no <code>#</code> is needed).</dd>
+</dl>
+
+Let's suppose you had a color option that you wanted to be your "Primary" color for your theme.  You would create this color option like so:
+
+<pre><code>$color_palette->add_color(
+	array( 
+		'id'      => 'primary', 
+		'label'   => __( 'Primary Color', 'example' ), 
+		'default' => '000000' 
+	)
+);</code></pre>
+
+<h3 id="class-method-add_rule_set">$color_palette->add_rule_set()</h3>
+
+<pre><code>$color_palette->add_rule_set( $color_id, $args );</code></pre>
+
+This method lets you define a <abbr title="Cascading Style Sheets">CSS</abbr> rule set for any colors you registered with <code>add_color()</code>.  It accepts two parameters.  The first is <code>$color_id</code>, which is the ID of a previously registered color.  
+
+The second is an array of arguments for <abbr title="Cascading Style Sheets">CSS</abbr> properties.  By default, the following properties are supported.
+
+<ul>
+	<li><code>color</code></li>
+	<li><code>background-color</code></li>
+	<li><code>border-color</code></li>
+	<li><code>border-top-color</code></li>
+	<li><code>border-bottom-color</code></li>
+	<li><code>border-right-color</code></li>
+	<li><code>border-left-color</code></li>
+	<li><code>outline-color</code></li>
+</ul>
+
+The following is an example of a rule set for the <code>primary</code> color option (from example in previous section).
+
+<pre><code>$color_palette->add_rule_set(
+	'primary',
+	array(
+		'color'               => 'a, pre, code, .breadcrumb-trail a, .format-link .entry-title a .meta-nav, #respond label .required, #footer a:hover',
+		'background-color'    => '#branding, li.comment .comment-reply-link',
+		'border-top-color'    => 'body',
+		'border-bottom-color' => '.breadcrumb-trail a:hover, .sticky.hentry, .loop-meta, .page-template-portfolio .hentry.page',
+		'border-left-color'   => 'pre'
+	)
+);</code></pre>
+
+As you can see, this is pretty much basic <abbr title="Cascading Style Sheets">CSS</abbr>.  You just add <abbr title="Cascading Style Sheets">CSS</abbr> properties as the array keys and <abbr title="Cascading Style Sheets">CSS</abbr> selectors (comma-separated list) as the array values.
+
+<h3 id="registering-custom-colors">Putting it all together</h3>
+
+Now that you've seen how the individual components work, you can put them all together within your <code>my_register_colors()</code> function as shown in the following code example.
+
+<pre><code>function my_custom_colors( $color_palette ) {
+
+	/* Add color options. */
+
+	$color_palette->add_color(
+		array( 
+			'id'      => 'primary', 
+			'label'   => __( 'Primary Color', 'example' ), 
+			'default' => '000000' 
+		)
+	);
+
+	/* Add rule sets. */
+
+	$color_palette->add_rule_set(
+		'primary',
+		array(
+			'color'               => 'a, pre, code, .breadcrumb-trail a, .format-link .entry-title a .meta-nav, #respond label .required, #footer a:hover',
+			'background-color'    => '#branding, li.comment .comment-reply-link',
+			'border-top-color'    => 'body',
+			'border-bottom-color' => '.breadcrumb-trail a:hover, .sticky.hentry, .loop-meta, .page-template-portfolio .hentry.page',
+			'border-left-color'   => 'pre'
+		)
+	);
+}</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

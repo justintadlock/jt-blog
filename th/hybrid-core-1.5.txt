@@ -1,0 +1,76 @@
+Since August, I've been working away at version 1.5 of Hybrid Core.  It's been a long road getting this release ready.   There were so many new features added that it needed the extra time for additional testing.
+
+Today, I am happy to announce that Hybrid Core 1.5 is officially out.  You can grab the latest copy from the <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core theme framework">Hybrid Core page</a>.
+
+<h2>What's new?</h2>
+
+One of the biggest changes I've made is I've gone through and updated the formatting on a large portion of the code to make it even easier for developers to read.  I'll continue this process through version 1.6 as well.  Several bugs have also been squashed as a direct result of community input and feedback. 
+
+While the following is not a complete list of all the changes, it does represent the major areas (plus features) that were added or modified in this release.
+
+<ul>
+<li>Allow for comments template based off post type (e.g., <code>comments-post.php</code>, <code>comments-page.php</code>, etc.).</li>
+<li>Theme customizer section added for the Theme Layouts extension that allows user to choose a global layout.</li>
+<li>Added a random background generator.</li>
+<li>Added a featured header image extension.</li>
+<li>Added a post format tools extension.</li>
+<li>Added the Hybrid Core Scripts loader feature.</li>
+<li>Added the Hybrid Core Styles loader feature.</li>
+<li>Added a permanent "Customize" link under the "Appearance" menu for users to quickly access the theme customizer.</li>
+<li>Added the <code>hybrid_locate_theme_file()</code> function for loading JavaScript, CSS, and images in the same way that WordPress' <code>locate_template()</code> loads templates.</li>
+<li>Post Stylesheets extension now has a drop-down select instead of a text input for choosing a per-post stylesheet.</li>
+<li>Handle multiple queried archives in the global context instead of choosing the first archive.</li>
+<li>Breadcrumb Trail:
+	<ul>
+	<li>Breadcrumb Trail extension now supports even more custom scenarios.</li>
+	<li>Archive-type and single post pagination is now supported in breadcrumbs.</li>
+	<li>Added support for individual sites in a multisite network.</li>
+	<li>Handles attachments in breacrumbs for post types other than "post".</li>
+	</ul>
+</li>
+<li>Widgets:
+	<ul>
+	<li>Wrap "none-styled" authors in Authors widget with <code>&lt;p></code> tag.</li>
+	<li>Removed the <code>walker</code> option from the Nav Menu widget.</li>
+	<li>Added the <code>order</code> option to the Archives widget.</li>
+	</ul>
+</li>
+</ul>
+
+You can view the complete history of the changes on the Hybrid Core <a href="https://github.com/justintadlock/hybrid-core/commits/1.5" title="Hybrid Core 1.5 commits">1.5 commit page</a>.
+
+<h2>New tutorials</h2>
+
+To go with the newly-added features, I've written a few new tutorials:
+
+<ul>
+<li><a href="http://themehybrid.com/docs/tutorials/random-custom-background" title="Random Custom Background extension">Random Custom Background</a></li>
+<li><a href="http://themehybrid.com/docs/tutorials/featured-header" title="Featured Header extension">Featured Header</a></li>
+<li><a href="http://themehybrid.com/docs/tutorials/post-format-tools" title="Post Format Tools extension">Post Format Tools</a></li>
+<li><a href="http://themehybrid.com/docs/tutorials/hybrid-core-scripts" title="Core Scripts feature">Scripts Loader</a></li>
+<li><a href="http://themehybrid.com/docs/tutorials/hybrid-core-styles" title="Core Styles feature">Styles Loader</a></li>
+<li><a href="http://themehybrid.com/docs/tutorials/theme-layouts" title="Theme Layouts extension">Theme Layouts</a> (important updates)</li>
+</ul>
+
+<h2>Other things of note</h2>
+
+<strong>SEO:</strong>  As of today, I am officially announcing that themes built off the Hybrid Core framework should not use the Hybrid Core SEO feature any longer.  The code was originally added to the framework because it was for my personal blog.  Well, the entire framework was originally built for my personal blog.  However, this is obviously no longer the case.  This has been an unwritten rule for some time.  I'm just making it official now.
+
+SEO is better handled by plugins like <a href="http://wordpress.org/extend/plugins/wordpress-seo/" title="WordPress SEO plugin">WP SEO</a>, which is the SEO plugin that I officially endorse.  I will also be more than happy to help anyone who has used this feature in the past port their data over to the plugin.
+
+<strong>Hybrid theme stylesheets:</strong>  In version 1.6, the following Hybrid theme stylesheets (located in <code>/library/css</code>) will be removed from the framework.
+
+<ul>
+<li><code>2c-l-fixed.css</code></li>
+<li><code>2c-r-fixed.css</code></li>
+<li><code>3c-l-fixed.css</code></li>
+<li><code>3c-r-fixed.css</code></li>
+<li><code>3c-c-fixed.css</code></li>
+<li><code>holy-grail-fluid.css</code></li>
+<li><code>plugins.css</code></li>
+<li><code>screen.css</code></li>
+</ul>
+
+These files have long been moved to the Hybrid theme's <code>/css</code> folder.  There's no need for them to be in the framework taking up space on users' sites who do not use that theme.
+
+So, if you're importing any of those stylesheets, make sure to import them from the correct place.  I'm more than willing to help you out with this in the support forums if you need help.

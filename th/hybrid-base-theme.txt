@@ -1,0 +1,39 @@
+<img src="http://themehybrid.com/blog/wp-content/uploads/2013/03/hybrid-base-screenshot.png" alt="Hybrid Base WordPress theme screenshot" width="600" height="450" class="aligncenter size-full wp-image-2102" />
+
+A year or so ago, I talked a bit about releasing a starter-type theme to make it easier for theme authors who wanted to learn to use the <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core WordPress theme framework">Hybrid Core</a> framework.  At the same time, I also wanted something to allow me to quickly build out the <abbr title="Hypertext Markup Language">HTML</abbr> and basic WordPress templates for themes.  So, Hybrid Base was born.
+
+However, it's been a long road.  I've thrown out about 10 different good, solid ideas for this theme over the course of the last year.  Finally, I came up with something that's not too heavy on dev stuff and focuses more on the essentials of creating WordPress themes.
+
+<h2>What's under the hood?</h2>
+
+You won't find 100s of hooks or complicated <abbr title="Hypertext Preprocessor">PHP</abbr> code in Hybrid Base.  It's simple <abbr title="Hypertext Markup Language">HTML</abbr> with a light mix of the appropriate WordPress template tags and Hybrid Core functions.
+
+There's a base <code>style.css</code> file with a structured, hierarchical view of most of the things you'd need to create style rules for with a WordPress theme.  You can use it or just delete it and start from scratch.
+
+Of course, the Hybrid Core framework is packaged within it (note that this is a sub-module on GitHub, so you'll want to make sure your Git clone is recursive).  Many of the most-used features of the framework are enabled by default, so you'll be able to see how they work.
+
+<h2>Who can use the theme?</h2>
+
+I can't stress this enough &mdash; this theme is for theme developers.  It's not a parent theme that you build child themes for.  It's not a theme you'll get updates for (though you'll want to keep Hybrid Core updated).  You literally have to go into the theme code and make edits.  It's for creating new themes.
+
+So, this theme is for:
+
+<ul>
+	<li><strong>Me:</strong>  I plan to make this the base of future themes.  In fact, the <a href="http://themehybrid.com/themes/chun" title="Chun WordPress theme">Chun theme</a> was a first test run of using it.</li>
+	<li><strong>Freelance Developers:</strong>  This theme should make it even quicker for you to build out client sites than just using Hybrid Core from scratch.</li>
+	<li><strong>Theme Authors:</strong>  You can also make free public or commercial parent themes from this theme.  It's a good starting point.</li>
+</ul>
+
+<h2>What's in store for the future?</h2>
+
+This is an experiment as much as anything else.  Hybrid Base is going to be the foundation of whatever current theme development philosophy I have.  This changes over time as I become a better developer and when WordPress adds in new theme-relevant features.  So, I can't say for certain what the future direction of this theme is.
+
+The idea is that both you and I have a base to build from that reflects the current best practices of theme development at any given time.
+
+<h2>Where can I download it?</h2>
+
+At this time, I'm only making the theme available via its <a href="https://github.com/justintadlock/hybrid-base" title="Hybrid Base theme on GitHub">GitHub repository</a>.  The reason for this is that any theme author who builds from Hybrid Core should be familiar with using Git.  You'll need to know how to use it to get proper and timely updates of the framework.
+
+You can also find this information on the <a href="http://themehybrid.com/themes/hybrid-base" title="Hybrid Base WordPress theme">Hybrid Base</a> theme page.
+
+I hope you all enjoy this release and start making some awesome themes.

@@ -1,0 +1,52 @@
+As theme developers, one of the types of themes we always want to tackle is a portfolio theme.  At least I know that's true for me.  It's long been on my to-do list.
+
+Since portfolios aren't built into WordPress, we'd need a custom post type and taxonomy to handle the required base elements of a portfolio.  Sure, I could slap together 20 lines of code from a <a href="http://justintadlock.com/archives/2010/04/29/custom-post-types-in-wordpress" title="Custom post types in WordPress">popular tutorial</a>, throw it into my theme's <code>functions.php</code>, and call it a day, but that's not how post types work exactly.
+
+Today, I'm simultaneously releasing a plugin and a theme for you creative people who want to share your work with the world:  <a href="http://themehybrid.com/plugins/custom-content-portfolio" title="Custom Content Portfolio WordPress plugin">Custom Content Portfolio</a> (plugin) and <a href="http://themehybrid.com/themes/chun" title="Chun WordPress theme">Chun</a> (theme).
+
+<h2>Chun WordPress theme</h2>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2013/01/chun-screenshot-01.png" alt="Screenshot of the Chun WordPress theme" width="600" height="450" class="aligncenter size-full wp-image-2045" />
+
+Other than just creating a portfolio theme, I wanted to try out some newer techniques with <abbr title="Hypertext Markup Language">HTML</abbr>5 and <abbr title="Cascading Style Sheets">CSS</abbr>3.  This entire theme is built with no images or JavaScript on the front end.  It was pretty fun to play around with <abbr title="Cascading Style Sheets">CSS</abbr> transitions for some neat effects that I've only done in the past with jQuery.
+
+This also means that <abbr title="Internet Explorer">IE</abbr>8 and below are not supported at all with this theme.  Technically, the official policy here is to support the latest two versions of Internet Explorer, which includes 9 and 10.  This is just the first theme I'm intentionally not testing in 8.
+
+Some other new bits of functionality I'm trying out within the WordPress theme customizer are:
+
+<ul>
+	<li><strong>Font selector:</strong>  This allows you to choose from a set of pre-selected fonts to use with the theme.  This also means that if a font doesn't work for your language, there's always another option (I know some people will like this).</li>
+	<li><strong>Color selector:</strong>  You won't have total control over the design of the theme with this, but you'll get to choose the base colors for the theme.  This will give you the ability to add a personal touch to the design with a few clicks.</li>
+</ul>
+
+So, the Chun theme is a bit experimental in more ways than one.  I went a little wild (at least wilder than usual) with theme features.  I wanted to try some fun things, and I think these things came together into a nice package in the end.
+
+You can view the demo and download the theme from the <a href="http://themehybrid.com/themes/chun" title="Chun WordPress theme">Chun theme page</a>.
+
+<h2>Custom Content Portfolio plugin</h2>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2013/01/portfolio-admin-preview.png" alt="Screenshot of the portfolio items edit screen" width="774" height="605" class="aligncenter size-full wp-image-2044" />
+
+Custom Content Portfolio is a base portfolio plugin for other developers to build from.  bbPress does forums.  BuddyPress does social networks.  Custom Content Portfolio does portfolios.  Of course, this is just version 0.1, so I kept the features to a minimum.  I'd rather get feedback from users before throwing every feature imaginable into this thing.
+
+The great thing about this plugin from a theme author's perspective is that you don't have to worry about the functionality.  It's already done for you.  You can stick to <strong>designing</strong> themes.
+
+Other than the Chun theme I'm releasing today, <a href="http://themehybrid.com/themes/adroa" title="Adroa WordPress theme">Adroa</a> already supports this plugin out of the box.  I'll also be updating <a href="http://themehybrid.com/themes/picturesque" title="Picturesque WordPress theme">Picturesque</a> to do the same in the near future.  Very soon, you'll have three portfolio themes to choose from.  I can only hope that more theme developers hop on the bandwagon and make themes for this plugin too.  Only an extra template or two is required along with some custom <abbr title="Cascading Style Sheets">CSS</abbr>.
+
+For users, this plugin does a few things:
+
+<ul>
+	<li>Gives you a new menu item called "Portfolio" in the admin.</li>
+	<li>Adds a new taxonomy (like tags) called "Portfolio," which allows you to create an unlimited number of portfolios.</li>
+	<li>Creates a new post type (like posts) called "Portfolio Item," which you can use to create individual items for your various portfolios.</li>
+</ul>
+
+It's dead simple to use.  There's no configuration involved.  You just plug and play.
+
+You can download this plugin from the <a href="http://themehybrid.com/plugins/custom-content-portfolio" title="Custom Content Portfolio WordPress plugin">Custom Content Portfolio</a> plugin page.
+
+<h2>Enjoy the plugin+theme combo</h2>
+
+This is just the beginning.  I have other plans for theme and plugin combinations like this to handle some of the needs I see coming out of the WordPress community.
+
+For now, enjoy putting together your portfolios. 

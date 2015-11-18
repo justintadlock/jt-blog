@@ -1,0 +1,78 @@
+It's been <a href="http://themehybrid.com/weblog/theme-hybrid-version-3-0">over two years</a> since this Web site has gotten a shiny new coat of paint.  It's time for something new, don't you think?
+
+Well, you're looking at it now.  This is TH4 (Theme Hybrid 4.0), the new theme I'm running.
+
+Before going forward, I want to thank everyone who participated in the design process in the support forums.  You all were great.  While I couldn't add every suggestion, they were all helpful.  Ultimately, I can't design by committee, but I can try to take your feedback and use it to the best of my abilities and incorporate it into my own vision.
+
+<h2>The past two years</h2>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2012/02/theme-hybrid-redesign1.png" alt="Screenshot of the new Theme Hybrid front page" title="Theme Hybrid 3.0" width="280" height="362" class="alignright size-full wp-image-1771" />
+
+When I built TH3, I had big dreams; maybe too big.  Under the hood, I had the most magnificent documentation system ever created for a WordPress theme/plugin site.  On the surface, it was rough.  Trying to pull all this different data together in a cohesive and easy-to-understand way was next to impossible.
+
+I believe Theme Hybrid suffered because of the big dreams I had about creating the ultimate documentation section.  Many users found it difficult to navigate.  I was not motivated to create as many tutorials.  It was a mess.
+
+Simplification was the next order of business, but taking on another redesign was daunting with this monster I had created.  A lot of awesome stuff has come out of the site over the past couple of years, but when one of the most important sections of the site is fundamentally broken, many things go wrong.
+
+<h2>The new Theme Hybrid</h2>
+
+A lot has changed with the new site.  Other things stayed the same.  For regular visitors, some things should feel like it's the same with a new coat of paint.
+
+The focus of this redesign was on simplifying how the site works.  This meant figuring out what the truly important elements on a page were.  For example, you've probably noticed there's no sidebar at all on this site.  On most pages in the past, the sidebar was filled with either useless information or too much information.
+
+I'm also taking a new route with this redesign.  Rather than trying to get everything perfect on the first go, I'm going to build or fix things as I go.  Trying to get it all right the first time delays things and can often create even bigger bugs.  I could've spent another two weeks polishing everything, but that'd probably mean another two weeks of not working on cool stuff like themes and plugins for you all.
+
+<h3>The home page</h3>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/th4-home-page.png" alt="Home page screenshot" width="800" height="449" class="aligncenter size-full wp-image-2380" />
+
+Yes, it's different.  Very different.
+
+Deciding on the perfect content to showcase on the home page can be a frustrating process for non-blog sites, right?  To go along with the idea of keeping things simple, I took simple to the extreme.  The home page now features a random quote from a single person and not much else.
+
+Who better to promote this site than actual users?
+
+I've also set things up to be able to showcase specific themes or plugins when the need arises.  For now, I'll just showcase real people and what they have to say.  Don't be surprised to see your own face on the front page if you've ever said something awesome about Theme Hybrid or its themes and plugins.
+
+<h3>The forums</h3>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/th4-support-forums.png" alt="Support forums screenshot" width="800" height="565" class="aligncenter size-full wp-image-2379" />
+
+The <a href="http://themehybrid.com/support">support forums</a> are undoubtedly the most important pages on this site.  I've always liked how they were handled, but there were parts that needed to change.
+
+When looking over what links users were clicking and parts of the support forums they were visiting, I noticed a couple of things:
+
+<ul>
+	<li>They were not taking advantage of things like their favorites (bookmarking topics they found useful).</li>
+	<li>They were not using other forum views particular to their accounts.</li>
+	<li>The most-clicked link in the breadcrumbs was to get back to the forum home screen.</li>
+</ul>
+
+With this data in mind, I moved some of these things around to make them more obvious (the first two were at the bottom of the sidebar previously).  I've got a few more improvements in mind as well.
+
+<h3>Unique designs for theme/plugin pages</h3>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/th4-socially-awkward.png" alt="Socially Awkward theme screenshot" width="800" height="422" class="aligncenter size-full wp-image-2381" />
+
+Another direction I'm going is creating unique designs for each of the plugin and theme pages here on the site.  Some folks might not like this; others will.  It may represent a slight usability issue, but sometimes you just gotta take risks with design and have a little fun.
+
+Only the following pages have unique designs at the moment, but I'll be working on more as I go along.
+
+<ul>
+	<li><a href="http://themehybrid.com/hybrid-core">Hybrid Core Theme Framework</a></li>
+	<li><a href="http://themehybrid.com/themes/stargazer">Stargazer Theme</a></li>
+	<li><a href="http://themehybrid.com/themes/socially-awkward">Socially Awkward Theme</a></li>
+	<li><a href="http://themehybrid.com/plugins/members">Members Plugin</a></li>
+</ul>
+
+<h2>The new club memberships?</h2>
+
+As many of you know, there'll be a new club membership system in place.  I didn't launch it today because I didn't want to take on too much at once.  Yes, that means there'll be one more day of $10 club memberships.
+
+Tomorrow, I'll announce the new membership system and the changes in store for it.
+
+<h2>Anything else?</h2>
+
+I could continue writing about all the changes on each section of the site, but it's probably best if you just have a look around.  Feedback is always welcome.
+
+Please excuse any broken links or minor design bugs.  I'm still ironing out some of the details and cleaning things up.

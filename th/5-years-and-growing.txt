@@ -1,0 +1,41 @@
+A couple of weeks ago, a relative and I were talking about work.  As usual, it was some complaint about the hospital or the people working there.  I tried to lighten the mood a bit by saying, "At least you get to wake up each day and do something you love."  The response was that nursing wasn't something she loved to do; it was just a job.
+
+I understand that people work jobs they don't want.  I've been there and done that.  Hauling hay and watermelons as a teenager comes to mind.  But, it always amazes me when someone who went to college and stayed in their chosen career doesn't feel some sense of gratification for the work their doing.  It's just another job to them.
+
+I've been fortunate enough to do work that I truly love doing for 5 years now.
+
+Each morning, I open my iPad (used to be the laptop) and immediately check emails, the support forums, comments, and so on.  I often do this before ever rolling out of bed.  Don't get me wrong, I'm not always excited about doing these things.  They're just habits that I've formed over the years (whether healthy habits or not).  However, I am doing work that continues to excite me, sometimes in ways that I'd never imagined.
+
+It's hard to imagine working a job that I don't love doing.  I feel like I finished paying those dues 5 years ago.
+
+<h2>Where it all started</h2>
+
+My father doesn't remember this conversation, but I remember it well.  It was just another day at the office for him as a father.  For me, it was a pivotal moment in my life.
+
+In 2007, just before graudating from Auburn University, I told him that I wanted to "work online" as a career.  <em>Yeah, could I have been any more clueless?</em>  He basically gave me a reality check and told me to get a real job.  In fact, that's exactly what I done.
+
+After some time working at a crappy 9-to-5, I landed a job in South Korea.  During this time, I developed my reputation within the WordPress community and eventually made a real plan to "work online."  Once I returned home, I had this site up and running with a plan in hand and got the OK by my parents.
+
+Of course, I was a grown man at that point and didn't need my parents' approval to do anything, but they are about 20 years wiser than me.  Having them greenlight this path for me was great.  All my father ever wanted was for me to be practical and realistic.  Everyone has dreams, but for a dream to become reality, you must have a good, solid plan.  Plans are about action.
+
+That's the short version of how Theme Hybrid began for me on a personal level.
+
+<h2>Just the beginning</h2>
+
+When I first launched Theme Hybrid, there were very few commercial plugin and themes sites around.  If I recall correctly, <a href="http://studiopress.com" title="StudioPress">StudioPress</a>, <a href="http://woothemes.com" title="WooThemes">WooThemes</a>, and <a href="http://press75.com" title="Press75">Press75</a> were my only competitors.  There may have been others too.  I'm proud to be in the same company as some of the oldest and longest-running commercial theme sites around.  2008 was a good year.
+
+Even though I've been running this site for 5 years now, I feel like I'm just getting started.  If you ever see me in person, feel free to ask to take a peek at my list of plugin and theme ideas.  There's plenty on the horizon, probably enough for another 5 years of coding.
+
+<h2>A birthday present</h2>
+
+One of the major things I began work on 5 years ago was a theme framework.  I thought it only appropriate that I release an awesome update for this framework on the anniversary of this site opening.  So, at some point later today, I will push <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core WordPress theme framework">Hybrid Core</a> 1.6 into the wild.
+
+This is my gift to you.  Trust me, there's many cool things in this release.  
+
+<h2>Thank you</h2>
+
+The last item is the most important item.  I want to thank all of the members of Theme Hybrid for making it and continuing to make it a success.
+
+As most of you know, Theme Hybrid's business model is based on a yearly subscription for support.  So, here's a quick stat for you.  Over 45% of all memberships each year are renewals.  
+
+From a business standpoint, I don't know if that's good.  That's not my area of expertise.  But, I feel proud to know that Theme Hybrid has a huge group of loyal members who keep coming back year after year.  This site would not be what it is without you.

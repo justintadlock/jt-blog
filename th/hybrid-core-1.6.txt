@@ -1,0 +1,112 @@
+It's been a while since the last major update of <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core WordPress theme framework">Hybrid Core</a>.  I know, it's been a rough wait, but we've mostly been waiting to see how things panned out with some WordPress 3.6 features.
+
+Now that the code has been out for a couple of days (as promised in the <a href="http://themehybrid.com/weblog/happy-5th-birthday-theme-hybrid" title="Happy 5th birthday, Theme Hybrid">anniversary post</a>) and I've had sufficient time to add new tutorials and documentation, it's time to actually let you know what's in this release.
+
+So, let's get right down to it.
+
+<h2>Media Grabber</h2>
+
+I wrote a standalone script for pulling media (currently audio and video support) from the post content.  This allows theme developers to easily grab the media (whether it be embedded with HTML, a shortcode, an autoembed, or attached to the post) and display it in very cool ways like in <a href="http://justintadlock.com/blog/wp-content/uploads/2013/07/media-grabber-single-01.png">this screenshot</a>.
+
+Here's the developer <a href="http://themehybrid.com/docs/tutorials/hybrid-media-grabber" title="Tutorial: Hybrid Media Grabber">tutorial</a> on that.  I expect to see some awesome stuff come from using this, particularly with post formats.
+
+<h2>Theme Fonts</h2>
+
+A new extension was added for theme developers to add fonts to their theme.  This makes it easy to load Google Web Fonts, theme-packaged fonts, and standard Web-safe font or font stacks.  It even allows you to quickly make options in the WordPress theme customizer for allowing users to select font settings.
+
+You can read more about this in the <a href="http://themehybrid.com/docs/tutorials/theme-fonts" title="Tutorial: Theme Fonts">tutorial</a>.
+
+<h2>Color Palette</h2>
+
+I've been on the border about releasing this because I generally don't like themes with 100s of color options.  I like for designers to, you know, design.  But, allowing users to select colors does have its place, and that's exactly what this feature was built for.
+
+Create some color options.  Let users play around with them in the theme customizer.  Check out the <a href="http://themehybrid.com/docs/tutorials/color-palette" title="Tutorial: Color Palette">documentation</a> on this new feature.
+
+<h2>Breadcrumb Trail</h2>
+
+I completely overhauled the Breadcrumb Trail script to take more of an object-oriented approach.  There were several reasons for this.  The major one was to streamline some of the code.  The second major reason was to make integration with complex plugins (plugins that use post types and taxonomies) easier.
+
+I'm still working on the new documentation for this, but it adds many new levels of flexibility for us now and sets a foundation for better features in the future.
+
+<h2>HTML5</h2>
+
+Hybrid Core tries to be design-/structure-agnostic as much as possible.  However, it must output HTML on occasion.  The decision was made to fully support HTML5 elements where needed.  Everything that needed an HTML5 overhaul, got it.  This includes widgets/sidebars, the comment form, meta elements, captions, galleries, and more.
+
+I realize this may change some things for some theme designers if not focusing on using classes/IDs.  For the most part, it should be a welcome update.  Of course, you're always free to change this output if needed.
+
+<h2>Cleaner Gallery</h2>
+
+The Cleaner Gallery extension got a few needed updates.  HTML5, of course, was one of those things.  Along with a couple of bug fixes, a new CSS class was added.  The included <code>gallery.css</code> got an overhaul to be friendlier to newer CSS features.
+
+It also defaults to the <code>post-thumbnail</code> image size instead of <code>thumbnail</code> if the theme has defined this size via the <code>set_post_thumbnail_size()</code> function.  This should make it easier for theme authors to make their themes prettier when they have strict design guidelines for images.
+
+<h2>Mobile Toggle script</h2>
+
+I've added a <code>mobile-toggle.js</code> script, which should give everyone an extra option for handling mobile/responsive nav menus.  It was created to work with the standard menu structure we use here at Theme Hybrid.
+
+<h2>One-Five stylesheet</h2>
+
+Along with the other base stylesheets, I've added a new one called <code>one-five.css</code>.  This is a base stylesheet that creates a 1.5 line-height, font size, and margin structure.  This stylesheet was added to take advantage of some advances in CSS and play nicer with flexible designs than the other base stylesheets.  It is <code>rem</code> based rather than <code>px</code> based.
+
+<h2>Translations</h2>
+
+The way the framework handles translations has been given a good bit of love.  The first is that the translation functions will now recognize the <code>Text Domain</code> header from a theme's <code>style.css</code> file's header block.  I urge all theme authors to set this.
+
+Some translations also failed because of a few things I missed in the past, so this shouldn't be a problem anymore.  Thanks to superstar community member <a href="https://foxnet-themes.fi/">Sami Keijonen</a> for helping me iron out a few bugs.  
+
+<h2>Get the Image</h2>
+
+Our super-awesome thumbnail/image script, Get the Image, has gotten a few new features.  
+
+The thing that people have been asking for over the past couple of years is finally here:  caption support.  Yes, Get the Image now supports WordPress captions.  Yay!
+
+You can add multiple classes now, which was previously a bug that turned out to be a feature some folks liked.  
+
+The script also defaults to the <code>post-thumbnail</code> size rather than the <code>thumbnail</code> size if a theme has defined a thumbnail size via the <code>set_post_thumbnail_size()</code> function.
+
+<h2>Content templates</h2>
+
+Since <code>content-*.php</code> templates have become so widely used, there's now a new <a href="http://themehybrid.com/docs/functions/hybrid_get_content_template" title="Functions: hybrid_get_content_template()">hybrid_get_content_template()</a> function.  This should compliment other WordPress functions like <code>get_header()</code> and <code>get_footer()</code>, except this one's a little more robust.  Definitely check it out if you like splitting your templates down into smaller parts.
+
+<h2>Attachment handling</h2>
+
+The <code>hybrid_attachment()</code> function now uses the new WordPress 3.6 media player to play audio and video attachments.  This is probably a little-used function for most theme authors, but you now have reason to actually use this on audio and video attachment pages.
+
+<h2>Legacy CSS files removed</h2>
+
+I announced this <a href="http://themehybrid.com/weblog/hybrid-core-version-1-5" title="Hybrid Core version 1.5">back in January</a>, but I wanted to make sure I let everyone know again.  All the old, legacy Hybrid theme CSS files have been removed from the framework (they're in the Hybrid theme's <code>/css</code> folder now).
+
+The removed files are as follows.
+
+<ul>
+<li><code>2c-l-fixed.css</code></li>
+<li><code>2c-r-fixed.css</code></li>
+<li><code>3c-l-fixed.css</code></li>
+<li><code>3c-r-fixed.css</code></li>
+<li><code>3c-c-fixed.css</code></li>
+<li><code>holy-grail-fluid.css</code></li>
+<li><code>plugins.css</code></li>
+<li><code>screen.css</code></li>
+</ul>
+
+<h2>New functions</h2>
+
+And, last on the list are a few new functions worth checking out.  Here are the links to the relevant documentation.
+
+<ul>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_post_has_content">hybrid_post_has_content()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_attachment_is_audio">hybrid_attachment_is_audio()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_attachment_is_video">hybrid_attachment_is_video()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_get_gallery_image_count">hybrid_get_gallery_image_count()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_get_gallery_item_count">hybrid_get_gallery_item_count()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_get_the_post_format_url">hybrid_get_the_post_format_url()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_body_attributes">hybrid_body_attributes()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_post_attributes">hybrid_post_attributes()</a></li>
+<li><a href="http://themehybrid.com/docs/functions/hybrid_comment_attributes">hybrid_comment_attributes()</a></li>
+</ul>
+
+<h2>Now, you can download</h2>
+
+Yep, that was quite a bit of info, right?  By the way, those are just the major features.  It doesn't include all the minor fixes and updates that have been implemented over the past few months.
+
+I do hope you enjoy this release and make lots of awesome themes with it.  Now, go grab the <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core WordPress theme framework">latest copy</a>.

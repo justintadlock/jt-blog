@@ -1,0 +1,86 @@
+I've [almost] always been a big a supporter of the WordPress theme repository.  It's a great, central location for users to find themes.  For theme authors, it's a way to handle publishing their themes without building a system for doing so.  However, I've been thinking more and more about moving my thems off of WordPress.org and running a complete self-hosted solution.
+
+<h2>Just ship</h2>
+
+Anyone who has been around the WordPress community for a while has probably read Matt Mullenweg's article <a href="http://ma.tt/2010/11/one-point-oh/" title="1.0 Is the Loneliest Number">1.0 Is the Loneliest Number</a>.  This is bookmarked as my all-time favorite article on software development philosophy.
+
+<blockquote>
+...if you’re not embarrassed when you ship your first version you waited too long.
+</blockquote>
+
+With the WordPress theme repository, it's next to impossible to ship version 1.0.  For many theme authors, they're lucky to ship 1.5 by the time their theme is approved for public use.
+
+This is a backwards philosophy to me.  You need a perfect theme to get approval for the repository.  Now, don't misunderstand me; I love what the theme review team does, to a degree.  It's important that we check for spam, security issues, and themes doing themes they shouldn't be doing in general.
+
+However, the theme review process is a huge barrier to entry and halts the iterative process you get by actually putting a product into the hands of users.  By the time a theme author gets the theme into the hands of users, he's burnt out from all the dev work he's had to do to pass the review.
+
+<h2>Social coding</h2>
+
+Nearly all the WordPress developers I follow keep their code on <a href="http://github.com">GitHub</a>.  There's a reason for this &mdash; GitHub makes version control dead simple and adds an entire social network around it.
+
+WordPress simply isn't competing here in either the plugin or theme repositories.  So, many of us have simply moved on to something better.  We get feedback, patches, discussion, and much more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

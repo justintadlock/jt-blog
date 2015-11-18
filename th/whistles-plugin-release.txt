@@ -1,0 +1,59 @@
+Let's hop in our time machine and go back to January 2009.  Theme Hybrid was half a year into the WordPress theme game.  <a href="http://themehybrid.com/themes/hybrid" title="Hybrid WordPress theme">Hybrid</a> was quickly becoming one of the most popular themes in the WordPress ecosystem.
+
+<em>What were users demanding?</em>
+
+Tabs.
+
+Tabs.
+
+Tabs.
+
+<em>Can I get some tabs?  Can I get a theme with some tabs on the side?  A double order of tabs?  Some tabs to go?  I need me some tabs.  And, some tabs on top.  Please.</em>
+
+Really, folks were crazy about tabs in their WordPress themes back then.  I'd done a few themes with tabs before then, but I knew I didn't want to start building tabs for every theme I planned to build in the future.  I honestly didn't see the point in tabs for 95% of sites.  So, I decided on a compromise:  I would release a <a href="http://themehybrid.com/weblog/hybrid-tabs-wordpress-plugin" title="Hybrid Tabs plugin release">tabs plugin</a> specifically for Hybrid users and style it in some of the more popular child themes.
+
+Here's the problem:  the plugin sucked.  Yeah, it saw several thousand downloads over the next six months before I officially put it on the WordPress plugin repository.  Many people were ecstatic about it.  I wasn't particularly proud of that plugin.
+
+The plugin has quietly faded out of existence for the most part over the last few years.  I didn't want to work on it; users found better solutions.  But, I always kept a thought in the back of my mind that I'd do a real tabs plugin that rocked.
+
+Earlier this year, I was taking a look over Hybrid Tabs' code and thought of ways I could restructure it to make it useful.  Basically, there was no way I was doing that.  So, I scrapped the entire idea and made an outline of what I think a tabs plugin should be.  I put the project on the backburner for a while though because of other responsibilities.  
+
+When I was <a href="http://themehybrid.com/support/topic/can-this-only-work-with-hybrid">asked a couple of weeks ago</a> about using Hybrid Tabs with a theme other than Hybrid, I dusted off the old notebook and began writing the code for the tabs plugin I'd envisioned.
+
+What I made wasn't just a tabs plugin.  It was Whistles.
+
+<h2>Introducing Whistles</h2>
+
+<img src="http://themehybrid.com/blog/wp-content/uploads/2013/09/banner-772x250.png" alt="banner-772x250" width="772" height="250" class="aligncenter size-full wp-image-2182" />
+
+Whistles takes the concept of a custom post type + taxonomy and mixes it with tabs, toggles, and accordions.
+
+Basically, a "whistle" is just an arbitrary name for a piece of content that you'd like to group with some other content in some cool way, such as inside a group of tabs.  I didn't want to limit users to preset types of content, so I used a custom post type for saving individual whistles.  Each whistle can then belong to one or more whistle groups.  Whistle groups are then displayed as tabs, toggles, or accordions on the site.
+
+<h2>What?  Huh?</h2>
+
+If that doesn't make a lot of sense, let me break it down for you:
+
+<ul>
+	<li>You create individual whistles just like posts/pages (Appearance > Whistles screen).</li>
+	<li>You add whistles to whistle groups just like post tags (Appearance > Whistles Groups screen).</li>
+	<li>You can display your whistles by using the "Whistles" widget and selecting how you want them to appear (tabs, toggle, accordion).</li>
+	<li>You can display whistles in the post/page editor via the "Add Whistles" media button.</li>
+</ul>
+
+The reason for doing things this way is for a number of reasons:
+
+<ul>
+	<li>Users have near unlimited possibilities for what they want their whistle content to be.  Anything you can add to the post editor can also be added as whistle content.</li>
+	<li>Data portability.  You can take your whistles along for the ride with any theme without losing them.</li>
+	<li>Easy to style.  Theme authors can roll their own <abbr title="Cascading Style Sheets">CSS</abbr> for this plugin easily.</li>
+	<li>Easy to extend.  With just a little <abbr title="Object-Oriented Programming">OOP</abbr> knowledge, developers have an infinite number of ways they can extend this and do something other than just tabs, toggles, and accordions.</li>
+</ul>
+
+<h2>Download the plugin</h2>
+
+You can find the plugin on the <a href="http://themehybrid.com/plugins/whistles" title="Whistles WordPress plugin">Whistles plugin page</a> or on the <a href="http://wordpress.org/plugins/whistles" title="WordPress plugin repository: Whistles">WordPress.org page</a>.  You can also follow the plugin's development on <a href="https://github.com/justintadlock/whistles" title="GitHub: Whistles plugin">GitHub</a>.
+
+I hope you enjoy this release.  I want to see some themes rolling their own styles for this.
+
+<p class="alert">Because I know this will most likely be necessary, let me just add this note.  This plugin might not look that good with your theme.  It's next to impossible for a plugin such as this to look good with all themes or even most themes.  It really needs custom style rules based on the design that you're using.  With that said, it should look decent in the current default WordPress themes.</p>

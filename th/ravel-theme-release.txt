@@ -1,0 +1,109 @@
+<a href="http://themehybrid.com/themes/ravel" title="Ravel WordPress theme"><img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/ravel-screen.jpg" alt="ravel-screen" width="800" height="709" class="aligncenter size-full wp-image-2409" /></a>
+
+Today, I'm happy to announce the newest theme to the Theme Hybrid family:  Ravel.  
+
+Typically, I'd go about giving you a whole lot of boring details about why this theme is the <em>awesomesauce</em> when all you really want to do is download it and play around.  Well, I'm still going to make you read a bunch of stuff, but this should be a bit more fun.  I decided to give you a little insight into the design and development process that made this theme possible.
+
+<div class="chat-transcript has-avatars">
+
+<div class="chat-row chat-speaker-1">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/tung-avatar.png" alt="tung-avatar" width="80" height="80" class="avatar" />
+<blockquote class="chat-text">
+<p>So, I got this WordPress theme mockup. Want to build it together?</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-2">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/justin-avatar.jpeg" alt="justin-avatar" width="80" height="80" class="avatar" />  
+<blockquote class="chat-text">
+<p>Sure. We've built some cool stuff together before. Let's do it again.</p>
+</blockquote>
+</div>
+
+</div>
+
+&hellip; Time goes by. Dolphins swim in the ocean.  Kittens make nice purring noises.  All is right with the world &hellip;
+
+<div class="chat-transcript has-avatars">
+
+<div class="chat-row chat-speaker-1">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/tung-avatar.png" alt="tung-avatar" width="80" height="80" class="avatar" />
+<blockquote class="chat-text">
+<p>We're nearing the finish line.  Yip-eee!</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-2">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/justin-avatar.jpeg" alt="justin-avatar" width="80" height="80" class="avatar" />  
+<blockquote class="chat-text">
+<p>Yep.  We're close.  Now, it's time for the marketing material.</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-1">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/tung-avatar.png" alt="tung-avatar" width="80" height="80" class="avatar" />
+<blockquote class="chat-text">
+<p>You got an English degree from like the best college in the world, right?  You should be good at that.</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-2">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/justin-avatar.jpeg" alt="justin-avatar" width="80" height="80" class="avatar" />  
+<blockquote class="chat-text">
+<p>That's right.  I'm a graduate of Auburn University.  War eagle!  I can handle the announcement post and putting the theme landing page together.  My English is good.</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-1">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/tung-avatar.png" alt="tung-avatar" width="80" height="80" class="avatar" />
+<blockquote class="chat-text">
+<p>Cool. I'm about to play in Photoshop, yo!</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-2">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/justin-avatar.jpeg" alt="justin-avatar" width="80" height="80" class="avatar" />  
+<blockquote class="chat-text">
+<p>Wait.  I need to know a few things first.  Like, what inspired you to create this design?  Any meaning behind the name 'Ravel'?  Let's get down to the deep stuff here.  Open up your soul and let that artistic energy flow.</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-1">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/tung-avatar.png" alt="tung-avatar" width="80" height="80" class="avatar" />
+<blockquote class="chat-text">
+<p>I saw this letter 'R'.  It was cool.</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-2">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/justin-avatar.jpeg" alt="justin-avatar" width="80" height="80" class="avatar" />  
+<blockquote class="chat-text">
+<p>The letter 'R'?</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-1">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/tung-avatar.png" alt="tung-avatar" width="80" height="80" class="avatar" />
+<blockquote class="chat-text">
+<p>Yeah.  I made this whole design around it for artistic people.  Cool, yeah?</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-2">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/justin-avatar.jpeg" alt="justin-avatar" width="80" height="80" class="avatar" />  
+<blockquote class="chat-text">
+<p>Yeah?!?&hellip;I'll handle the landing page and announcement post.</p>
+</blockquote>
+</div>
+<div class="chat-row chat-speaker-1">
+<img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/tung-avatar.png" alt="tung-avatar" width="80" height="80" class="avatar" />
+<blockquote class="chat-text">
+<p>Just doin' what I do.  Just doin' what I do.</p>
+</blockquote>
+</div>
+
+</div>
+
+In all seriousness, it's been fun working on something with my longtime friend, Tung Do, once again.  I'm only partially paraphrasing our conversation together and teasing Tung a bit.
+
+<h2>Introducing the Ravel theme</h2>
+
+<a href="http://themehybrid.com/themes/ravel" title="Ravel WordPress theme"><img src="http://themehybrid.com/blog/wp-content/uploads/2014/06/ravel-portfolio-medium.jpg" alt="ravel-portfolio-medium" width="350" height="402" class="alignright size-full wp-image-2408" /></a>
+
+Ravel was built as a blog, portfolio, and professional profile theme.  The idea was to create a unique design that you'd typically only find on a site created for client rather than just putting out yet another black-and-white theme for the masses. 
+
+Ravel includes some of the usual theme features normally associated with Theme Hybrid themes.  It also has some newer stuff that we've been doing like social network integration into nav menus and Schema.org microdata.  We even included a tabs widget and a custom page template geared toward putting together a professional profile/introduction on your front page.
+
+Like some of our other themes, Ravel includes full integration with the <a href="http://themehybrid.com/plugins/custom-content-portfolio">Custom Content Portfolio</a> plugin, which allows you to manage your portfolio of design, photography, and other artwork.
+
+Go check out the <a href="http://themehybrid.com/themes/ravel">Ravel theme page</a> now to download the theme and find out more about its features.  You can also view the <a href="http://locallylost.com/ravel">live demo</a>.
